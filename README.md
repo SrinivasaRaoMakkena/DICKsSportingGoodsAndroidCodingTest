@@ -15,4 +15,6 @@ Used 3rd Party Libraries
 Screens:
 -------
 
-1. ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+1. ![List of Venue Locations](https://github.com/SrinivasaRaoMakkena/DICKsSportingGoodsAndroidCodingTest/blob/master/app/Screenshot_1513840826.png)
+
+2. ![Website of DSG](https://github.com/SrinivasaRaoMakkena/DICKsSportingGoodsAndroidCodingTest/blob/master/app/Screenshot_1513840661.png)
