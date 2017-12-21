@@ -18,7 +18,7 @@ Screens:
 1. ![List of Venue Locations](https://github.com/SrinivasaRaoMakkena/DICKsSportingGoodsAndroidCodingTest/blob/master/app/Screenshot_1513840826.png)
 
 
-2. ![Venue Details](https://github.com/SrinivasaRaoMakkena/DICKsSportingGoodsAndroidCodingTest/blob/master/app/Screenshot_1513840826.png)
+2. ![Venue Details](https://github.com/SrinivasaRaoMakkena/DICKsSportingGoodsAndroidCodingTest/blob/master/app/Screenshot_1513840661.png)
 
 3.  ![Website of DSG](https://github.com/SrinivasaRaoMakkena/DICKsSportingGoodsAndroidCodingTest/blob/master/app/Screenshot_1513840752.png)
 
