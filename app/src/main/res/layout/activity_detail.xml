@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+   >
+
+    <LinearLayout
+        android:id="@+id/layoyt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:paddingLeft="16dp"
+        />
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:gravity="right"
+            />
+        <LinearLayout
+            android:id="@+id/favoriteLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rating"
+            >
+        <ImageButton android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:background="#00ffffff"
+            android:id="@+id/favorite"
+            android:src="@drawable/star"
+
+            android:onClick="onToggleStar"
+
+
+            />
+        <TextView
+            android:id="@+id/markAsFav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favorite"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/images"
+            android:text="Mark as Favourite"
+            android:textColor="#d41515"
+            android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/layoyt1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000"
+        android:paddingTop="8dp"
+        />
+
+   <Button
+       android:id="@+id/web1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Visit Website"
+       android:background="#2ff"
+       android:onClick="website"
+       android:layout_below="@+id/view1"
+       />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@+id/web1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_below="@id/view2"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+
+
+</RelativeLayout>
